@@ -1,3 +1,4 @@
+# sign/sign.py
 symbol_to_name = {
     '%': 'percent',
     '$': 'dollar',

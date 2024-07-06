@@ -1,1 +1,2 @@
-from .sign import get_symbol_name
+# sign/__init__.py
+from .sign import get_name
