@@ -11,7 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Florian Ratgers',
     author_email='flox@ratgers.nl',
-    url='https://github.com/Flox-Company/floxsign',  # Update this to your repository URL
+    url='https://github.com/Flox-Company/floxsign',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
