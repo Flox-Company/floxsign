@@ -1,2 +1,2 @@
 # sign/__init__.py
-from .sign import get_name
+from .get_name import get_name
