@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='floxsign',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     description='A package to helps with symbols in python like gettingn the name of a symbol.',
     long_description=open('README.md').read(),
