@@ -69,8 +69,11 @@ with_space = {
     '>': 'greater than'
 }
 
-def get_with_space(symbol):
+def symbol_with_space(symbol):
+    if with_space.get(symbol, 'unknown symbol') == 'unknown symbol':
+        print(e"error: unknown symbol")
     return with_space.get(symbol, 'unknown symbol')
+        
 
-def get_no_space(symbol):
+def symbol_with_no_space(symbol):
     return no_space.get(symbol, 'unknown symbol')
