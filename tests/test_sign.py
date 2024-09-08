@@ -1,12 +1,15 @@
-# tests/test_sign.py
 import unittest
-from sign import get_symbol_name
+from sign.get_name import get_with_space, get_no_space
 
-class TestSymbolMapper(unittest.TestCase):
-    def test_get_name(self):
-        self.assertEqual(get_symbol_name('%'), 'percent')
-        self.assertEqual(get_symbol_name('$'), 'dollar')
-        self.assertEqual(get_symbol_name('^'), 'unknown symbol')
+class TestSign(unittest.TestCase):
+    def test_with_space(self):
+        self.assertEqual(get_with_space('-'), 'minus')
+        self.assertEqual(get_with_space('/'), 'slash')
+    
+    def test_no_space(self):
+        self.assertEqual(get_no_space('-'), 'minus')
+        self.assertEqual(get_no_space('/'), 'slash')
 
 if __name__ == '__main__':
     unittest.main()
+
